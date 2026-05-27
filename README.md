@@ -48,7 +48,7 @@ The full briefing includes 5 ranked sprint recommendations with concrete A/B tes
                         reviews                                  sprint actions
 ```
 
-**Stage 1 — Per-review extraction.** Reviews are sent in batches to Claude (Sonnet) with a structured extraction prompt. Each review is classified by theme, sentiment, severity, and content quality. A Stage 1.5 re-classification pass expands initially under-specified categories and flags low-content noise ("gut", "top", "super") for exclusion.
+**Stage 1 — Per-review extraction.** Reviews are sent in batches to Claude (Opus 4.7) with a structured extraction prompt. Each review is classified by theme, sentiment, severity, and content quality. A Stage 1.5 re-classification pass expands initially under-specified categories and flags low-content noise ("gut", "top", "super") for exclusion.
 
 **Stage 2 — Theme aggregation.** Pure Python aggregation computes per-theme statistics (frequency, severity distribution, comparative signal). Representative quotes are selected by severity diversity, not cherry-picked for extremes. Claude then synthesizes per-theme descriptions, PM action categories, and A/B test hypotheses.
 
