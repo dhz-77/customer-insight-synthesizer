@@ -1,0 +1,1474 @@
+[
+  {
+    "theme": "Authentication & login",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "lidl-plus",
+    "stats": {
+      "lidl-plus": {
+        "count": 36,
+        "avg_rating": 1.44,
+        "severity_pct": {
+          "high": 97.2,
+          "medium": 2.8,
+          "low": 0.0
+        }
+      },
+      "rewe": {
+        "count": 1,
+        "avg_rating": 1.0,
+        "severity_pct": {
+          "high": 100.0,
+          "medium": 0.0,
+          "low": 0.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "ich bekomme leider einfach keinen Bestätigungscode per SMS. ich habs in der Filiale selbst versucht, dachte dann ich habe kein Empfang und habs dann daheim nochmal versucht. Insgesamt auch mit drei verschiedenen Telefonnummern (aus Deutschland und Österreich) und es hat einfach nichts funktioniert. die Mitarbeiterin die ich in der Filiale angesprochen habe, hat mir leider auch nicht weiter helfen können. anmelden mit dem Konto eines Freundes hat bei mir in der App ebenfalls nicht funktioniert 😒",
+          "sentiment": "negative",
+          "specific_complaint": "Kein Bestätigungscode per SMS, auch mit mehreren Nummern nicht.",
+          "feature_request": "Alternative Verifizierungsmethoden anbieten.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 4,
+          "review": "Nach Monaten kann man sich bei der App wieder unter einem Google Pixel mit QPR anmelden. Es funktioniert zwar nicht mit fremden Browsern sondern nur wenn man kurz den Chrome als Standard einstellt aber zumindest steht man nicht mehr doof im Laden.",
+          "sentiment": "neutral",
+          "specific_complaint": "Anmeldung funktioniert nur, wenn Chrome als Standardbrowser gesetzt ist.",
+          "feature_request": "Anmeldung mit beliebigen Browsern ermöglichen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Fehler im Login-Prozess der Lidl+ App! Die App öffnet die Anmeldemaske im Standard-Browser des Geräts. Ist dort die Option \"Desktopseite anfordern\" aktiv, schlägt der Auth-Callback zurück zur App fehl. Die App zeigt in diesem Fall die Meldung „Die Kapazität wurde überschritten – Bitte warte einen Moment und versuche es erneut\". Bitte Fehlermeldung anpassen!",
+          "sentiment": "negative",
+          "specific_complaint": "Login schlägt fehl, wenn im Standardbrowser 'Desktopseite anfordern' aktiv ist; irreführende Fehlermeldung.",
+          "feature_request": "Login-Flow für Desktop-Modus reparieren und Fehlermeldung anpassen.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 3,
+          "review": "Man fliegt ständig aus der App raus und muss sich neu anmelden. Wenn einem das dann auffällt, wenn man an der Kasse beim Bezahlen ist, ist es zu spät und man zahlt mehr, da die Lidl-Plus-Rabatte nicht berücksichtigt werden..",
+          "sentiment": "negative",
+          "specific_complaint": "App loggt Nutzer ständig aus, wodurch an der Kasse Rabatte verloren gehen.",
+          "feature_request": "Sitzung dauerhaft halten, damit keine ständige Neuanmeldung nötig ist.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Absolut schlechte App da sie zwingend voraussetzt dass Chrome der Standardbrowser ist. Mit Firefox keinerlei Nutzung/Login möglich somit absolut unbrauchbar. Und das schon seit Jahren wenn man im Netz sucht. \"Liebe\" Entwickler das ist Note 6 - bitte endlich fixen",
+          "sentiment": "negative",
+          "specific_complaint": "Login ist nicht möglich, wenn Firefox statt Chrome als Standardbrowser eingestellt ist.",
+          "feature_request": "Login mit beliebigen Standardbrowsern wie Firefox ermöglichen.",
+          "severity": "high"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Irgendwie finde ich keinen Weg mich anzumelden und auch die einkaufsliste von rewe online erscheint nicht. Was kann ich mit der app machen - online bestellen wohl nicht?",
+          "sentiment": "negative",
+          "specific_complaint": "Nutzer findet keinen Weg sich anzumelden und Einkaufsliste erscheint nicht.",
+          "feature_request": "Online-Bestellung und Einkaufsliste integrieren.",
+          "severity": "high"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Coupons & discounts",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "rewe",
+    "stats": {
+      "lidl-plus": {
+        "count": 31,
+        "avg_rating": 1.9,
+        "severity_pct": {
+          "high": 41.9,
+          "medium": 35.5,
+          "low": 22.6
+        }
+      },
+      "rewe": {
+        "count": 69,
+        "avg_rating": 2.12,
+        "severity_pct": {
+          "high": 42.0,
+          "medium": 49.3,
+          "low": 8.7
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Aktivierter Coupon ist Mal wieder nicht erfasst. Beschiss App. 17% auf Schafsmilch gewonnen. Mal ehrlich, ich fühle mich verar... Für son Kram soll ich meine Daten samt Einkaufverhalten preisgeben? Und die Tube Zahnpasta ab 70€ kann ich mir auch so kaufen Ich denke die App zu löschen ist die gute Alternative Und die 15% auf Porree bekomm ich nur mit der App? Dann geh ich doch zu Aldi, da bekomm ich alle Angebote ohne App. Mittlerweile könnte man meinen diese App gehört zu einem Shoppingsender",
+          "sentiment": "negative",
+          "specific_complaint": "Aktivierte Coupons werden an der Kasse nicht erfasst, Angebote nur mit App.",
+          "feature_request": "Zuverlässige Erfassung aktivierter Coupons sicherstellen.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Diese Coupon-Aktionen, bei denen man erst alles einzeln auswählen und in der App aktivieren muss, sind einfach nur unnötig umständlich und zeitraubend. Statt den Einkauf einfacher zu machen, kostet es jedes Mal extra Zeit und Nerven. Es reicht schon, dass man durch das Pfandsystem ständig zusätzlichen Aufwand hat – jetzt muss man auch noch in der App alles mühsam anklicken, nur um Angebote nutzen zu können. Kundenfreundlich ist das leider nicht. Bitte macht solche Aktionen einfacher und direkt",
+          "sentiment": "negative",
+          "specific_complaint": "Coupons müssen einzeln in der App aktiviert werden, was umständlich und zeitraubend ist.",
+          "feature_request": "Coupons automatisch und ohne manuelle Aktivierung anwenden.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Super app, macht immer Spaß die zu benutzen! Finde es aber auch Schade das es keine gratis Artikel mehr gibt; diese waren meistens ein Grund für mich bei Lidl vorbei zu kommen.",
+          "sentiment": "neutral",
+          "specific_complaint": "Es gibt keine Gratis-Artikel mehr in der App.",
+          "feature_request": "Gratis-Artikel-Coupons wieder einführen.",
+          "severity": "low"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "habe jetzt schon mehrfach \"gratis\" Artikel gekauft und entsprechend bezahlt heute wieder der Coupon ist meistens dann weg oder er steht auf aktiviert wird aber nicht eingelöst. Ansich wenn es nicht ausgegeben werden soll nicht schlimm. Nur schade wenn man dann sachen extra sucht oder ganze Kombinationen und die dann 100% zahlt. Das ist leider definitiv Scam, besser nicht versuchen. Nur normal einkaufen.",
+          "sentiment": "negative",
+          "specific_complaint": "Aktivierte Gratis-Coupons werden an der Kasse nicht eingelöst, Kunde zahlt vollen Preis.",
+          "feature_request": "Zuverlässige Einlösung aktivierter Coupons sicherstellen.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 3,
+          "review": "Ich habe meine meine Adresse jetzt fünfmal eingegeben und die App speichert sie noch immer nicht. Die Coupons werden nicht automatisch aktiviert. Bei bestimmten Coupons miss man sich sogar ein Meal zusammenstellen, als hätte man nichts besseres zu tun. Mein letzter Einkauf ist zwar in der App mit Kassenbeleg hinterlegt, aber er wurde nicht zum Rabattsammler dazugezählt. Die sollte unbedingt verbessert werden, damit sie wirklich funktioniert und irgendwo auch \"ohne Zweifel\" nutzbringend ist.",
+          "sentiment": "negative",
+          "specific_complaint": "Adresse wird nicht gespeichert, Coupons nicht automatisch aktiviert, Einkauf nicht beim Rabattsammler gezählt.",
+          "feature_request": "Automatische Coupon-Aktivierung und korrekte Erfassung der Einkäufe.",
+          "severity": "high"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Was nützen mir diese Woche die Angebote von letzter? Es lässt sich leider nicht aktualisieren. So muss ich wohl davon ausgehen, dass auch der Rest nicht auf dem neusten Stand ist. Für mich ist die App damit nicht wirklich hilfreich. (Was den Lieferservice angeht, der existiert bei uns - eine Landeshauptstadt - nicht mal per Onlinebestellung, von der App mal ganz zu schweigen. Das aber nur mal am Rande) Schade, ich mag REWE sonst…",
+          "sentiment": "negative",
+          "specific_complaint": "Angebote lassen sich nicht aktualisieren, veraltete Daten werden angezeigt.",
+          "feature_request": "Funktionierende Aktualisierung der Angebote.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Angebote werden als verfügbar für noch zwei Tage dargestellt, sind aber im ausgewählten Markt bereits seit Tagen ausverkauft.  Also: Unbrauchbar wegen fehlender Aktualisierung. Weil kein Stern nicht geht, vergebe ich einen Stern.",
+          "sentiment": "negative",
+          "specific_complaint": "Angebote werden als verfügbar angezeigt, sind aber im Markt seit Tagen ausverkauft.",
+          "feature_request": "Aktualisierung der Angebotsverfügbarkeit pro Markt.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "So ist die app ja nicht schlecht. Wäre toll wenn man Gutscheine einscannen könnte und dann an der Kasse nur noch das Handy hin hält so das die Kassiererin es abscannen kann. Dann wären alle Coupons gleich in der Kasse. Und die Kassiererin muss nicht alles einzeln machen, das hält immer so auf und die Kassierer sind nicht so genervt.  Bei Einen anderen laden geht das schon , finde das echt toll gemacht.",
+          "sentiment": "neutral",
+          "specific_complaint": null,
+          "feature_request": "Gutscheine in der App speichern und an der Kasse per Handy-Scan einlösen.",
+          "severity": "low"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Übel.... alles Angebote von letzter Woche.",
+          "sentiment": "negative",
+          "specific_complaint": "Es werden nur Angebote der Vorwoche angezeigt.",
+          "feature_request": "Aktuelle Angebote rechtzeitig anzeigen.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Die App ist der letzte Mist. Die Angebote sind veraltet oder stimmen mit den Marktangeboten nicht überein. Installiert sie bloß nicht. Man ärgert sich nur.",
+          "sentiment": "negative",
+          "specific_complaint": "Angebote in der App sind veraltet und stimmen nicht mit dem Markt überein.",
+          "feature_request": "Angebote mit den tatsächlichen Marktangeboten synchronisieren.",
+          "severity": "high"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "In-store experience",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "lidl-plus",
+    "stats": {
+      "lidl-plus": {
+        "count": 11,
+        "avg_rating": 2.91,
+        "severity_pct": {
+          "high": 18.2,
+          "medium": 36.4,
+          "low": 45.5
+        }
+      },
+      "rewe": {
+        "count": 1,
+        "avg_rating": 3.0,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 100.0,
+          "low": 0.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Leider Hausverbot bekommen weil es Probleme mit der App gab. Ich hatte kurzzeitig 2 von 6 Kassen belegt weil es ein technisches Problem gab. Obwohl alle anderen Kassen frei waren gab es Ärger.",
+          "sentiment": "negative",
+          "specific_complaint": "Technisches Problem der App führte zu Ärger an der Kasse und Hausverbot.",
+          "feature_request": null,
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 2,
+          "review": "An der App erkennt man, dass LIDL ziemlich bedürftig ist. Werbung und nervige Gamification ohne Ende. dabei will ich nur Pfand, evtl ein paar Coupons (aber das lasse ich neuerdings auch sein) und bezahlen machen. Kassenbon ist auch gut. aber das ganze drum herum. Nein...",
+          "sentiment": "negative",
+          "specific_complaint": "Zu viel Werbung und Gamification, der Fokus auf Kernfunktionen wie Pfand und Bezahlen geht verloren.",
+          "feature_request": "Reduzierung von Werbung und Gamification, Fokus auf Kernfunktionen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 2,
+          "review": "Gratis Artikel in 6 {sechs}Filialen nicht bekommen.Aktionware war zwar vorhanden bis auf eine Filiale waren alle Verpackungen bereits schon einmal {da gab es aber nicht den dazugehörigen Akku}geöffnet und genau auffällig gleich neu verklebt (2te Wahl). Daher konnte ich nichts gebrauchen,da es ein Geschenk werden sollte.",
+          "sentiment": "negative",
+          "specific_complaint": "Gratis-Artikel waren in mehreren Filialen nicht verfügbar oder bereits geöffnet.",
+          "feature_request": null,
+          "severity": "low"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 2,
+          "review": "Wenn die App mal funktioniert, ist sie ganz in Ordnung. Hilfreich beim Einkauf, weil man mit Coupons Geld sparen kann, und Produkte die mit Lidl App günstiger sind, vergünstigt einkaufen. Ein großer Fehler, den ich gemacht habe, ist die App auf Online-Kassenbon einzustellen. Die Kassenbons sind aber sehr oft nicht abrufbar. Ich habe jetzt das Problem, dass ich dringend einen Kassenbon brauche, aber keinen Zugriff bekomme, und das schon seit Tagen nicht mehr. Diese App ist wirklich schlecht.",
+          "sentiment": "negative",
+          "specific_complaint": "Online-Kassenbons sind häufig nicht abrufbar, obwohl auf digitalen Bon umgestellt wurde.",
+          "feature_request": "Zuverlässiger Zugriff auf gespeicherte digitale Kassenbons, ggf. Option zum Export.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 3,
+          "review": "Ich bekomme kein Online Kassenbon mehr :(",
+          "sentiment": "negative",
+          "specific_complaint": "Online-Kassenbon wird nicht mehr bereitgestellt.",
+          "feature_request": "Digitalen Kassenbon wieder verfügbar machen.",
+          "severity": "medium"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "Ich bin total froh über diese APP. ABER was nützt sie mir - ebenso die Scanner Eigenschaften - wenn ich mit O2 im Geschäft (egal welcher) überhaupt keinen Empfang habe!!! Ich weiß, das liegt an den Geschäften, aber es ändert nichts! Immer erst an der Kasse - kurz vor dem Ausgang - ist Empfang...",
+          "sentiment": "neutral",
+          "specific_complaint": "Scanner-Funktion unbrauchbar, da im Markt kein Mobilfunkempfang besteht.",
+          "feature_request": "Offline-Funktionalität für Scanner und Angebote ermöglichen.",
+          "severity": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Loyalty program mechanics",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "lidl-plus",
+    "stats": {
+      "lidl-plus": {
+        "count": 5,
+        "avg_rating": 3.0,
+        "severity_pct": {
+          "high": 20.0,
+          "medium": 40.0,
+          "low": 40.0
+        }
+      },
+      "rewe": {
+        "count": 2,
+        "avg_rating": 3.0,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 100.0,
+          "low": 0.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "leider wird mir der QR-Code von meiner Lidl Karte nicht angezeigt",
+          "sentiment": "negative",
+          "specific_complaint": "QR-Code der Lidl-Karte wird in der App nicht angezeigt.",
+          "feature_request": null,
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "New update with \"points\" system made me decide to shop at Aldi from now on. Spending £180 for 1 free bag of cashew nuts is kinda ridiculous",
+          "sentiment": "negative",
+          "specific_complaint": "Neues Punktesystem bietet schlechtes Verhältnis zwischen Ausgaben und Prämien.",
+          "feature_request": "Attraktiveres Punktesystem mit besseren Prämien einführen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 5,
+          "review": "Die App gefällt mir. Ich habe eine Frage zu der digitalen Pfandbon-Funktion: Kann man mehrere Bons sammeln und dann gemeinsam einlösen oder ist das nicht möglich?",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": "Mehrere digitale Pfandbons sammeln und gemeinsam einlösen können.",
+          "severity": "low"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 3,
+          "review": "Hallo, ich habe heute für über 100 Euro bei Ihnen eingekauft! Die Rabatte der App wurden abgezogen. Aber der Einkauf wurde mir beim Rabattsammler nicht gutgeschrieben! Ich wollte fragen, ob es zu Verzögerung bei größeren Summen kommen kann oder ob es ein Fehler in der App ist?",
+          "sentiment": "neutral",
+          "specific_complaint": "Einkauf über 100 Euro wurde im Rabattsammler nicht gutgeschrieben.",
+          "feature_request": "Korrekte und zeitnahe Gutschrift von Einkäufen im Rabattsammler sicherstellen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 5,
+          "review": "Super app, digitaler Pfandbon ist super :)",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": null,
+          "severity": "low"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "Kein Bereich für die Mitarbeiter. Z.b. Ersatz für die Personalkarte oder für eine rewe Karte (strich-code). Wenn ihr auch an uns denkt, gibt es 5 Sterne",
+          "sentiment": "neutral",
+          "specific_complaint": "Kein Bereich für Mitarbeiter, z.B. digitale Personal- oder REWE-Karte mit Strichcode.",
+          "feature_request": "Mitarbeiterbereich mit digitaler Personalkarte/REWE-Karte als Strichcode einführen.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "Online-Einkauf und mehr Übersichtlichkeit in punkto Payback wären wünschenswert. Sonst ganz ansprechend.",
+          "sentiment": "neutral",
+          "specific_complaint": "Payback-Bereich ist unübersichtlich und Online-Einkauf fehlt.",
+          "feature_request": "Online-Einkauf ergänzen und Payback-Bereich übersichtlicher gestalten.",
+          "severity": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Onboarding & registration",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "lidl-plus",
+    "stats": {
+      "lidl-plus": {
+        "count": 15,
+        "avg_rating": 1.33,
+        "severity_pct": {
+          "high": 86.7,
+          "medium": 6.7,
+          "low": 6.7
+        }
+      },
+      "rewe": {
+        "count": 1,
+        "avg_rating": 1.0,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 0.0,
+          "low": 100.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Bei der Registrierung, wurde ich darauf hingewiesen, dass bereits ein Konto mit der E-Mail Adresse existiert. Hatte ich vergessen. Hab vor vielen Monaten die App gelöscht. Konnte damals nichts damit anfangen. Jetzt einen erneuten Versuch gestartet. Und wahrscheinlich die Server gecrasht. Keine E-Mail mit Bestätigungscode erhalten. Statt dessen ein Hinweis, dass die Kapazität überschritten ist. Was soll mir das sagen? Das Lidl noch längst nicht im digitalen Zeitalter angekommen ist?",
+          "sentiment": "negative",
+          "specific_complaint": "Bei der Registrierung kommt keine Bestätigungs-E-Mail, stattdessen Meldung 'Kapazität überschritten'.",
+          "feature_request": null,
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "ich kann mich nicht registrieren wenn ich Firefox benutze. nur mit crome hat es funktioniert.",
+          "sentiment": "negative",
+          "specific_complaint": "Registrierung funktioniert nicht in Firefox, nur in Chrome.",
+          "feature_request": "Registrierung browserübergreifend ermöglichen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 5,
+          "review": "Ich würde die App auch gerne in Frankreich nutzen. Funktioniert aber leider nicht. Warum? ich komme auch über den App Store nicht an die französische Variante ran. Sehr schade. Danke für die Lösung! Klappt super, ich bin begeistert!",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": "Länderübergreifende Nutzung der App (z. B. in Frankreich) ermöglichen.",
+          "severity": "low"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Die Registrierung klappt überhaupt nicht..Es kann kein SMS -Codr an mich gesendet werden.Ich habe es schon an verschiedenen Tagen und Uhrzeiten probiert..Das ist nicht sehr Kundenorientiert und einfach nicht gut...Die App ist angeblich immer \"überlastet\"oder nicht mehr \"Aufnahme-bereit.. mit freundlichen Grüßen G. aus Bremen. Die Kapazität wurde überschritten...Was für ne Aussage ist das denn...BITTE!!!🤔🤔🤔🤔...",
+          "sentiment": "negative",
+          "specific_complaint": "Registrierung scheitert, da kein SMS-Code zugestellt wird und App meldet ständig Kapazitätsüberschreitung.",
+          "feature_request": "SMS-Code-Versand bei der Registrierung zuverlässig funktionieren lassen.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Die Aktivierung war ein Graus. Nach gefühlt 30 Versuchen (auch mit Deinstallieren etc.) habe ich endlich eine Zugangsnummer per SMS bekommen. Ich weiß gar nicht, warum ich so viel Zeit investiert habe. Schön doof.",
+          "sentiment": "negative",
+          "specific_complaint": "Aktivierung erforderte zahlreiche Versuche, bis SMS mit Zugangsnummer ankam.",
+          "feature_request": "Aktivierungsprozess zuverlässiger gestalten.",
+          "severity": "high"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Ich habe angst wenn man auf ein produkt drauf drückt, das man es dann direkt gekauft hatt.....deswegen von mir leider nur ein stern....sorry hoffe ich bekomme antwort....frohe weihnachten wünsche ich ihnen,",
+          "sentiment": "negative",
+          "specific_complaint": "Nutzer befürchtet, dass das Antippen eines Produkts einen Kauf auslöst.",
+          "feature_request": "Deutlichere Hinweise, dass Antippen kein Kauf ist.",
+          "severity": "low"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Online shop & ordering integration",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "rewe",
+    "stats": {
+      "lidl-plus": {
+        "count": 1,
+        "avg_rating": 2.0,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 100.0,
+          "low": 0.0
+        }
+      },
+      "rewe": {
+        "count": 26,
+        "avg_rating": 2.54,
+        "severity_pct": {
+          "high": 7.7,
+          "medium": 76.9,
+          "low": 15.4
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 2,
+          "review": "Könnte besser sein. Wollte mir den Luftbefeuchter aus dem aktuellen Prospekt kaufen. Nur leider ist das verwendete Öl nirgends zum nachkaufen zu finden. Bravo. Wieder mal einen Kunden erfolgreich abgewehrt. 👍🏽",
+          "sentiment": "negative",
+          "specific_complaint": "Zubehör/Öl für gekauften Luftbefeuchter ist nirgends nachkaufbar.",
+          "feature_request": "Nachkaufmöglichkeit für Produktzubehör (z.B. Öl für Luftbefeuchter) anbieten.",
+          "severity": "medium"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Wurde durch mehrere Artikel aufmerksam, die voll des Lobes waren. Da Rewe unser bevorzugter Discounter ist, die optimale Lösung. Pustekuchen......was soll man mit einer App, nur mit Angeboten des Marktes, die man in eine Einkaufsliste verschieben kann? Die noch dazu nicht aktuell sind (mein Briefkasten wird am Samstag mit den Prospekten versorgt), die App aktuallisiet erst Montagabend oder garnicht. Das komplette Sortiment wäre angebracht oder die Möglichkeit Produkte einzuscannen und abzuspeichern. Dafür gibt es andere Apps! Einkaufen geht nicht weil die ausgesuchten Märkte in unserer Nähe dieses Angebot nicht haben. Gerade in ländlichen Gegenden, wie bei uns, wäre so etwas von Vorteil. Gerade für Ältere, die nicht so mobil sind oder Leute die keinen Führerschein haben. Ich hätte mich gefreut von unterwegs eine Bestellung aufzugeben und bei Ankunft die Sachen entgegenzunehmen oder in der Garage vorzufinden. Idee klasse, Ausführung mangelhaft. Da bleibe ich bei meinem altbewehrten Einkaufszettel und kaufe vor Ort ein.",
+          "sentiment": "negative",
+          "specific_complaint": "App bietet nur veraltete Marktangebote, kein vollständiges Sortiment und keine Lieferung in ländlichen Gebieten.",
+          "feature_request": "Komplettes Sortiment scannen und bestellen, mit Lieferung oder Abholung auch in ländlichen Regionen.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Dachte dies wäre eine App mit der man seine Lieferungen bestücken und organisieren kann. Wer braucht eine App, die ihm sagt wo der nächste Rewe Markt ist? Absoluter Unfug. Insbesondere wenn man schon als einziger einen Lieferdienst hat.",
+          "sentiment": "negative",
+          "specific_complaint": "App bietet keine Lieferdienst-Bestellfunktion, nur Marktsuche.",
+          "feature_request": "Lieferservice direkt in der App integrieren.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 4,
+          "review": "Ich finde die App super - sehr übersichtlich und einfach zu bedienen. Kein unnötiger Schnickschnack, das finde ich toll. Ein paar Sachen könnte man noch ausbauen - zum Beispiel die Einkaufsliste könnte so verknüpft sein, dass man alles darauf direkt online bestellen kann.",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": "Einkaufsliste mit Online-Bestellung verknüpfen.",
+          "severity": "low"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Leider  kann man  nicht  mit der  App  nicht  bestellen! Hätte  man  sich  sparen  können  die  App! Und  kann  auch  nicht  sein Account  verwalten!",
+          "sentiment": "negative",
+          "specific_complaint": "Bestellen und Account-Verwaltung über die App nicht möglich.",
+          "feature_request": "Bestellfunktion und Account-Verwaltung integrieren.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "Barcodescan zoomt nicht scharf, wie man nach Hause liefern lassen kann unklar, ma warten ob APP noch besser wird.",
+          "sentiment": "neutral",
+          "specific_complaint": "Barcodescan unscharf und Lieferoption unklar.",
+          "feature_request": "Klarere Lieferoption und besserer Barcodescan.",
+          "severity": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Other / unclear",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "rewe",
+    "stats": {
+      "lidl-plus": {
+        "count": 1,
+        "avg_rating": 5.0,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 0.0,
+          "low": 100.0
+        }
+      },
+      "rewe": {
+        "count": 2,
+        "avg_rating": 2.5,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 0.0,
+          "low": 100.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 5,
+          "review": "bitte kleinere Portionen für Singelhaushalte und Pesionnisten anpacken zum Beispiel Milch normale und haltparmilch",
+          "sentiment": "neutral",
+          "specific_complaint": null,
+          "feature_request": "Kleinere Portionsgrößen (z.B. Milch) für Single- und Rentnerhaushalte anbieten.",
+          "severity": "low"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Veraltete App. Sucht besser die neue REWE App. Tipp. Im Symbol der neuen App steht \"REWE Dein Markt\"",
+          "sentiment": "negative",
+          "specific_complaint": "App ist veraltet, es gibt eine neuere Version.",
+          "feature_request": null,
+          "severity": "low"
+        },
+        {
+          "app": "rewe",
+          "rating": 4,
+          "review": "Warum gibt es bei Kaufda keine Rewe Prospekte mehr? Sicherlich nur damit sich jeder hier diese eigentlich nutzlose APP installiert. Macht jetzt jeder Supermarkt bald seine eigene APP?",
+          "sentiment": "negative",
+          "specific_complaint": "REWE-Prospekte nicht mehr bei Kaufda verfügbar, App wird als unnötig empfunden.",
+          "feature_request": null,
+          "severity": "low"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Other app features (themes, accessibility, customization)",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "lidl-plus",
+    "stats": {
+      "lidl-plus": {
+        "count": 10,
+        "avg_rating": 2.0,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 40.0,
+          "low": 60.0
+        }
+      },
+      "rewe": {
+        "count": 5,
+        "avg_rating": 3.2,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 40.0,
+          "low": 60.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "update, wieder eine unangenehme Erfahrung.Wenig intelligente Kopplung von Land und Sprache, verreist man in ein Nachbarland, kann man die App dort nutzen, aber nur, wenn man umstellt auf Land UND Sprache - zu kurz gedacht Lidl, nur weil man sich dort aufhält, bedeutet das nicht, das ich die Landessprache beherrsche; aber ich kann ja auch woanders einkaufen...",
+          "sentiment": "negative",
+          "specific_complaint": "Land und Sprache sind zwangsgekoppelt, sodass im Ausland die Sprache mitgewechselt werden muss.",
+          "feature_request": "Land und Sprache unabhängig voneinander einstellbar machen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "\"Lidl Plus wurde für dich noch weiter verbessert. Viel Spaß bei der Nutzung!\", sagt alles und doch gar nichts! Anstatt jetzt (endlich) gezielt darauf hinzuweisen was gefixt wurde, kommt da so ein leeres Blah-blah! NoGo. Für wie Naiv haltet ihr denn eure User?! Edit: Lernresistent!",
+          "sentiment": "negative",
+          "specific_complaint": "Update-Hinweise sind nichtssagend und enthalten keine konkreten Changelog-Informationen.",
+          "feature_request": "Detaillierte Changelogs in Update-Hinweisen anzeigen.",
+          "severity": "low"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 3,
+          "review": "Die App nutze ich überwiegend im Ausland, leider kann man dort die eigene Sprache nicht einstellen. Bitte ändern.",
+          "sentiment": "negative",
+          "specific_complaint": "Im Ausland lässt sich die eigene Sprache in der App nicht einstellen.",
+          "feature_request": "Sprache unabhängig vom Land frei einstellbar machen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Kein Dunkles Design verfügbar. Unübersichtlich. Und wozu die Updates, die Nerven, wenn ihr doch nix verändert.. Und warum antwortet euer support auf Englisch wenn ihr deutsch seid???",
+          "sentiment": "negative",
+          "specific_complaint": "Kein Dark Mode, unübersichtliche Oberfläche, Support antwortet auf Englisch.",
+          "feature_request": "Dunkles Design einführen und deutschsprachigen Support sicherstellen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 2,
+          "review": "++ THIS APP IS A DEADLY LASER ++ Wie kann es sein, dass es keinen Darkmode gibt??? Die App brennt mir wirklich jedes mal die Augen weg... Jedes Mal...",
+          "sentiment": "negative",
+          "specific_complaint": "Es fehlt ein Darkmode, die helle Oberfläche blendet stark.",
+          "feature_request": "Darkmode hinzufügen.",
+          "severity": "medium"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Warum gibt es keinen Modus für Tablets im Landscape Modus? Veröffentlicht doch einfach eure Angebote lieber direkt bei KaufDa oder MeinProspekt!",
+          "sentiment": "negative",
+          "specific_complaint": "Kein Landscape-Modus für Tablets verfügbar.",
+          "feature_request": "Landscape-Modus für Tablets ergänzen oder Angebote bei KaufDa/MeinProspekt veröffentlichen.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "aber ich mag Apps nicht, die grundlos vorschreiben, daß sie nur im hochkant-Format nutzbar sind. Die Entscheidung, wie ich mein Smartphone halte, möchte ich gerne selber treffen.",
+          "sentiment": "negative",
+          "specific_complaint": "App lässt sich nur im Hochformat nutzen.",
+          "feature_request": "Querformat-Unterstützung ermöglichen.",
+          "severity": "low"
+        },
+        {
+          "app": "rewe",
+          "rating": 2,
+          "review": "Die Rewe App verwendet, im Gegensatz zu den Apps von Aldi, Lidl,  etc., nur das Hochform, genau wie alle Edeka Apps. So werden  die ganzen Vorteile eines Tablet PC nicht ausgenutzt. Wann lernt / merkt Rewe endlich, die größere Fläche eines Tablet PC zu nutzen? Auch bietet die App, im Gegensatz zur Webpage, nicht die Möglichkeit das Angebot im PDF Format herunter zu laden! Deinstallation!",
+          "sentiment": "negative",
+          "specific_complaint": "App nutzt nur Hochformat und bietet keinen PDF-Download der Angebote.",
+          "feature_request": "Landscape-Modus für Tablets und PDF-Download der Angebote anbieten.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 5,
+          "review": "Danke für das Update und das die App auch optisch verbessert wurde...hat ja lang genug gedauert schön das wieder daran gearbeitet wird um die Rewe App jeden Tag etwas besser zu machen",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": null,
+          "severity": "low"
+        },
+        {
+          "app": "rewe",
+          "rating": 5,
+          "review": "Die Angebote laden schnell, wie auch die Marktsuche. Die Einbindung der Rezepte ist gut, und die Verwaltung der Einkaufsliste ist angehen. Optik allgemein sehr übersichtlich.",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": null,
+          "severity": "low"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Payment & checkout",
+    "comparative_signal": "symmetric",
+    "dominant_app": null,
+    "stats": {
+      "lidl-plus": {
+        "count": 15,
+        "avg_rating": 1.93,
+        "severity_pct": {
+          "high": 66.7,
+          "medium": 26.7,
+          "low": 6.7
+        }
+      },
+      "rewe": {
+        "count": 16,
+        "avg_rating": 2.75,
+        "severity_pct": {
+          "high": 18.8,
+          "medium": 56.2,
+          "low": 25.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Schlimmste App ever. Ich dachte nach der schlimmen AOK App geht es nicht schlimmer. Oh doch es geht schlimmer. Danke Lidl für die unnütze App im Onlineshop. Keine Zahlungsinformationen werden vorgegeben. Man will online die Rechnung bezahlen und nix passiert. Mit KI gechattet und nur dumme Aussagen der LIDL KI. Ich hoffe ich bekomme die eine Lieferung mit Bezahlung meinerseits und danach wird diese App gelöscht.",
+          "sentiment": "negative",
+          "specific_complaint": "Online-Rechnungsbezahlung funktioniert nicht und KI-Chat liefert keine hilfreichen Antworten.",
+          "feature_request": "Zahlungsfunktion im Onlineshop reparieren und sinnvollen Kundensupport bieten.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Leider ist die App Kunden unfreundlich programmiert. Wenn man zB. bei LidlPlus seine Adresse ändert bleibt eine vorhandene Adresse erhalten wenn man dort die Lieferadresse nicht ändert! Keine Info das die Adressen nicht identisch sind. Wenn man dann online bestellt fehlt jeglicher Hinweis das die Adressen nicht übereinstimmen. Die Rechnungsadresse muss man ebenfalls manuell ändern Kundenfreundlich wäre jeweils ein entsprechender Hinweis noch besser wäre mit einem Tippen diese zu übernehmen.",
+          "sentiment": "negative",
+          "specific_complaint": "Adressänderung übernimmt nicht automatisch Liefer- und Rechnungsadresse, kein Hinweis bei Abweichung.",
+          "feature_request": "Hinweis bei abweichenden Adressen und Option zur Übernahme per Tippen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 5,
+          "review": "Die Lidl Plus App ist einer der besten Apps, die ich derzeit nutze. Unser Markt hat Scan & Go, so dass ich meine Einkäufe direkt erfassen kann. Um das Einkaufen noch einfacher zu machen, habe ich folgende Wünsche: - zahlen direkt in der App, ohne ans Terminal zu müssen - Einkaufsliste mit Bring! verknüpfen. Die haben eine Api. Wäre super, NUR eine App nutzen zu müssen Weiter so!",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": "In-App-Bezahlung ohne Terminal und Einkaufslisten-Verknüpfung mit Bring! per API.",
+          "severity": "low"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Konnte meine Bestellung nicht auf Rechnung bezahlen.",
+          "sentiment": "negative",
+          "specific_complaint": "Bestellung konnte nicht auf Rechnung bezahlt werden.",
+          "feature_request": "Zahlung auf Rechnung ermöglichen.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 2,
+          "review": "Funktioniert jetzt halbwegs wieder mit Android 17, aber Pay leider noch nicht.",
+          "sentiment": "negative",
+          "specific_complaint": "Lidl Pay funktioniert unter Android 17 weiterhin nicht.",
+          "feature_request": "Lidl Pay mit Android 17 kompatibel machen.",
+          "severity": "high"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Ein Graus diese App. Versuche vergeblich seit 2 Tagen online zu bestellen.  Weder per Internet noch App funktioniert es. Immer wieder legt sich dieses Bild der Marktsuche drüber.  Dann springt es wieder bis zum Anfang. Echt zum ausflippen.  Wird sofort gelöscht die App.",
+          "sentiment": "negative",
+          "specific_complaint": "Online-Bestellung funktioniert nicht, Marktsuche-Overlay blockiert den Vorgang.",
+          "feature_request": null,
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Nur ein paar Angebote. Keine Bestellung möglich, unvollständiges Sortiment.",
+          "sentiment": "negative",
+          "specific_complaint": "Wenig Angebote, keine Bestellung möglich, unvollständiges Sortiment.",
+          "feature_request": "Bestellfunktion und vollständiges Sortiment hinzufügen.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "Hallo,  richtig nützlich wäre die App,  wenn man daraus direkt bestellen könnte...",
+          "sentiment": "neutral",
+          "specific_complaint": null,
+          "feature_request": "Direkte Bestellfunktion in der App einbauen.",
+          "severity": "low"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "keine online bestellfunktion, kein lieferservice, keine benutzeranmeldung, keine bezshlfunktion - völliger unsinn!! wann kommt der deutsche einzelhandel endlich in der moderne an??",
+          "sentiment": "negative",
+          "specific_complaint": "Es fehlen Online-Bestellung, Lieferservice, Benutzeranmeldung und Bezahlfunktion.",
+          "feature_request": "Online-Bestellung, Lieferservice, Login und Bezahlfunktion einführen.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Leider kann man nicht online bestellen!",
+          "sentiment": "negative",
+          "specific_complaint": "Online-Bestellung ist nicht möglich.",
+          "feature_request": "Online-Bestellfunktion einführen.",
+          "severity": "high"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Performance & stability",
+    "comparative_signal": "symmetric",
+    "dominant_app": null,
+    "stats": {
+      "lidl-plus": {
+        "count": 62,
+        "avg_rating": 1.94,
+        "severity_pct": {
+          "high": 77.4,
+          "medium": 14.5,
+          "low": 8.1
+        }
+      },
+      "rewe": {
+        "count": 35,
+        "avg_rating": 2.14,
+        "severity_pct": {
+          "high": 71.4,
+          "medium": 8.6,
+          "low": 20.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Lese heute im App store,die App ist mit meinem Samsung galaxy s7 edge nicht mehr kompatibel.Am 7.5. ging's aber noch.Heute bei Lidl für 110.- eingekauft for nothing also! Wunderte mich schon,warum ich den Kassenbon nicht hier vorfinde.Danke liebe Lidl Entwickler, dass ihr das Smartphone Verkaufsgeschäft mit ankurbelt.Ich bin sauer.Wegen dieser App gehe ich überhaupt zu Lidl.Macht aber nix,ein Aldi habe ich 250m entfernt, zu Lidl muss ich mit dem Auto ca 3km fahren.Spare ich Benzin.Keine Lustmehr",
+          "sentiment": "negative",
+          "specific_complaint": "App ist plötzlich nicht mehr mit älterem Samsung Galaxy S7 Edge kompatibel.",
+          "feature_request": "Kompatibilität mit älteren Android-Geräten erhalten.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Wenn man Prospekte ansehen will hängt sich immer wieder auf. Und es wäre schön wenn man wieder dunkelmodus einstellen könnte.",
+          "sentiment": "negative",
+          "specific_complaint": "Prospektansicht stürzt ab und Dunkelmodus fehlt.",
+          "feature_request": "Dunkelmodus wieder einführen und Prospektabsturz beheben.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 4,
+          "review": "Funktioniert auch unter Graphene OS",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": null,
+          "severity": "low"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 2,
+          "review": "Seit dem letzten Update geht kaum etwas. Das Menü \"Profil\" mit den allgemeinen Daten, Einkäufen usw funktioniert nicht. Hier erscheint nur eine weiße Fläche. Dadurch kann ich einen gekauften Artikel nicht zurück geben, weil ich u.a. keinen Zugriff auf die Kassenzettel habe. Desweiteren werden die Partnervorteile nicht mehr angezeigt \"Etwas ist schiefgelaufen! Bitte prüfe deine Internetverbindung und versuche es erneut.\" Hätte gerne den Shell-Vorteil genutzt, der beworben wurde...",
+          "sentiment": "negative",
+          "specific_complaint": "Nach Update sind Profilbereich und Partnervorteile nicht abrufbar, Kassenzettel nicht einsehbar.",
+          "feature_request": "Profil und Partnervorteile nach Update wieder funktionsfähig machen.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Leider noch immer grundlegende Funktionen mit Android Beta nicht möglich. ich möchte nicht wissen welche Funktionen für Tracking oder sonstige Wiedererkennung vorigen werden, denn keine andere App macht diese Probleme. selbst Banken App die früher Mal schwierig waren laufen seit einigen Jahren auf Android Pixel Betas problemlos.",
+          "sentiment": "negative",
+          "specific_complaint": "Grundfunktionen laufen nicht auf Android Beta, andere Apps schon.",
+          "feature_request": "Kompatibilität mit Android-Beta-Versionen sicherstellen.",
+          "severity": "high"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Habe die App auf meinem Handy (bestes Modell) installiert kann sie aber nicht benutzen, da angeblich keine Internetverbindung/Wlan verfügbar ist. Alle anderen Apps die ich habe funktionieren! Auch nach deinstallieren und wieder installieren klappt nichts. Bin genervt und habe die App nun wieder vom Handy runter geschmissen. Geht gar nicht.",
+          "sentiment": "negative",
+          "specific_complaint": "App nutzbar nicht, da angeblich keine Internetverbindung erkannt wird.",
+          "feature_request": null,
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 2,
+          "review": "Leider sehr lange Ladezeit um \"Alle Angebote\" zu sehen.",
+          "sentiment": "negative",
+          "specific_complaint": "Sehr lange Ladezeit beim Anzeigen aller Angebote.",
+          "feature_request": null,
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 4,
+          "review": "Bei vollem Datenvolumen funzt die App einwandfrei! Praktisch beim sparen! GPS ist hier sehr wichtig! Galaxy S5.",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": null,
+          "severity": "low"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Trotz Neuinstallation noch immer die alte Woche - Gibt Probleme mit der App",
+          "sentiment": "negative",
+          "specific_complaint": "Trotz Neuinstallation werden nur veraltete Angebote angezeigt.",
+          "feature_request": "Angebote-Aktualisierungsproblem beheben.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "Die Rewe Cosmic Shells App finde ich mit meinem Samsungs Galaxy S5 nicht und ein Freund von mir mit seinem S6 auch nicht     wieso???",
+          "sentiment": "negative",
+          "specific_complaint": "App ist auf Samsung Galaxy S5 und S6 nicht im Store auffindbar.",
+          "feature_request": "Kompatibilität mit älteren Samsung-Geräten sicherstellen.",
+          "severity": "high"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Privacy & data concerns",
+    "comparative_signal": "symmetric",
+    "dominant_app": null,
+    "stats": {
+      "lidl-plus": {
+        "count": 5,
+        "avg_rating": 1.2,
+        "severity_pct": {
+          "high": 20.0,
+          "medium": 80.0,
+          "low": 0.0
+        }
+      },
+      "rewe": {
+        "count": 4,
+        "avg_rating": 2.75,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 100.0,
+          "low": 0.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Hab neugierdehalber die app wieder installiert u mich registriert vor ein paar Tagen. Und jetzt krieg ich Anrufe unbekannter Nummern......zeigt ganz deutlich was lidl mit den Daten seiner Kunden macht 😡 EDIT Antwort ist Standard blabla",
+          "sentiment": "negative",
+          "specific_complaint": "Nach Registrierung erhält der Nutzer Anrufe unbekannter Nummern und vermutet Datenweitergabe.",
+          "feature_request": null,
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Seit heute, musste ich mich neu anmelden und sollte meine Telefonnummer sowie Geburtstag und andere Daten bei LIDL Plus angeben. Da verzichte ich lieber auf die par Cent Rabatt, als das ich wieder so eine Datenkrake unterstütze und dann von irgendwelchen Betrügern telefonisch belästigt werde weil LIDL meine Daten weiter verkauft. Na ja, die wollen es so. Keine Daten keine LIDLPlusApp, viel weniger LIDL Einkäufe, tja Pech gehabt. Es gibt derzeit noch genug Alternativen hier bei mir.",
+          "sentiment": "negative",
+          "specific_complaint": "Nutzer muss bei Neuanmeldung sensible Daten wie Telefonnummer und Geburtstag angeben und befürchtet Datenweitergabe.",
+          "feature_request": "Anmeldung ohne Angabe von Telefonnummer und Geburtstag ermöglichen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Registrierung nur mit Angabe der Telefonnummer? Da ist die Konkurrenz datensparsamer. Dann eben nicht ...",
+          "sentiment": "negative",
+          "specific_complaint": "Registrierung erfordert Angabe der Telefonnummer, was als zu datenhungrig empfunden wird.",
+          "feature_request": "Registrierung ohne Telefonnummer ermöglichen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "ich habe diese app gelöscht weil sie mich zwingen will einen account mit adresse und persönlichen daten anzulegen",
+          "sentiment": "negative",
+          "specific_complaint": "App erzwingt Account-Anlage mit Adresse und persönlichen Daten.",
+          "feature_request": "Nutzung ohne Angabe persönlicher Daten ermöglichen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 2,
+          "review": "bringt mir fast nichts, weder finanziell noch informativ. Lidl bekommt meine Daten, und ich? Und in den Läden habe ich fast immer Probleme mit dem Internet, für WLAN ist Lidl wohl zu geizig.",
+          "sentiment": "negative",
+          "specific_complaint": "App bringt kaum Mehrwert, sammelt aber Daten; im Laden fehlt zudem stabiles Internet/WLAN.",
+          "feature_request": "WLAN in Filialen bereitstellen und echten Mehrwert für Nutzer schaffen.",
+          "severity": "medium"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 2,
+          "review": "Dafür das REWE so streng mit Thema Datenschutz ist braucht die App interessante Rechte. Wozu muss man meine Fotos auslesen?",
+          "sentiment": "negative",
+          "specific_complaint": "App verlangt unnötige Berechtigungen wie Foto-Zugriff trotz strengem Datenschutz.",
+          "feature_request": "Unnötige App-Berechtigungen entfernen.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "App ist in Ordnung, aber warum geht sie nicht auch in quer? Hochformat finde ich unpraktisch. Und ich frage mich wozu das Recht Kamera gebraucht wird? Sie wird wieder deinstalliert.",
+          "sentiment": "negative",
+          "specific_complaint": "Kein Querformat und unklare Berechtigung für Kamerazugriff.",
+          "feature_request": "Querformat anbieten und Kamera-Berechtigung erklären.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 4,
+          "review": "Ich kann keinen Markt auswählen, der nicht in meiner Nähe ist. Und die Rechte scheinen mir auch ein wenig zu hoch oder für was braucht ihr Zugriff auf meine Kamera?",
+          "sentiment": "neutral",
+          "specific_complaint": "Keine Auswahl entfernter Märkte möglich und unnötige Kamera-Berechtigung.",
+          "feature_request": "Auswahl beliebiger Märkte ermöglichen und App-Berechtigungen reduzieren.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 2,
+          "review": "Warum braucht die App Zugriff auf Kamera und Mikrofon?",
+          "sentiment": "negative",
+          "specific_complaint": "Unverständlich warum die App Zugriff auf Kamera und Mikrofon benötigt.",
+          "feature_request": null,
+          "severity": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Recipes & content",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "rewe",
+    "stats": {
+      "lidl-plus": {
+        "count": 0,
+        "avg_rating": null,
+        "severity_pct": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "rewe": {
+        "count": 3,
+        "avg_rating": 3.0,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 66.7,
+          "low": 33.3
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 2,
+          "review": "Seit dem Update wurde die app für mich mehr oder weniger unnützlich. Keine lieblingsrezepte, deshalb muss man ständig wieder nach dem gleichen Gericht suchen. Zutatenliste bei Rezept kann nicht mehr direkt in den Einkaufswagen übernommen werden uvm. Außerdem fehlt beispielsweise eine Rezeptsuche. Die app vor dem Update hätte ich mit 4-5 Sternen bewertet, nun 1-2. Insgesamt finde ich, das sich diese app noch einiges (ausgenommen Angebotsübersicht) von der Edeka-app abschauen.",
+          "sentiment": "negative",
+          "specific_complaint": "Nach Update fehlen Lieblingsrezepte, Rezeptsuche und Übernahme der Zutaten in den Einkaufswagen.",
+          "feature_request": "Lieblingsrezepte, Rezeptsuche und Zutatenübernahme wieder einbauen.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 5,
+          "review": "Würde auch noch mehr Sternchen geben wenn es sie gäbe es ist nur schade das bei den Rezepten keine für Schonkost dabei sind. Kann man sich ich auch Einkäufe nach Hause bringen lassen?  ;)",
+          "sentiment": "positive",
+          "specific_complaint": "Keine Rezepte für Schonkost vorhanden.",
+          "feature_request": "Rezepte für Schonkost und Lieferservice nach Hause hinzufügen.",
+          "severity": "low"
+        },
+        {
+          "app": "rewe",
+          "rating": 2,
+          "review": "Ist eine Klasse App. Vor allem, wenn man Ideen braucht zum Kochen. ABER: seit dem Update kann ich einzelne Rezepte nicht mehr markieren. Ich kann die Zutaten nicht mehr in den Einkaufszettel setzen. Wieso geht das nicht mehr? Sehr schade...",
+          "sentiment": "negative",
+          "specific_complaint": "Nach dem Update kann man Rezepte nicht mehr markieren und Zutaten nicht in den Einkaufszettel übernehmen.",
+          "feature_request": "Rezepte markieren und Zutaten in den Einkaufszettel übernehmen wieder ermöglichen.",
+          "severity": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Search & navigation",
+    "comparative_signal": "symmetric",
+    "dominant_app": null,
+    "stats": {
+      "lidl-plus": {
+        "count": 18,
+        "avg_rating": 2.06,
+        "severity_pct": {
+          "high": 33.3,
+          "medium": 50.0,
+          "low": 16.7
+        }
+      },
+      "rewe": {
+        "count": 25,
+        "avg_rating": 2.84,
+        "severity_pct": {
+          "high": 8.0,
+          "medium": 56.0,
+          "low": 36.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Die schlechteste Einkaufsapp, die ich kenne: - unübersichtlich, völlig irrelevante Informationen dominieren, Suche nach konkreten Kategorien nicht möglich - normale Angebote lassen sich nur im Prospekt anzeigen und nicht zur Einkaufsliste hinzufügen - diese damit völlig nutzlos und vielleicht deshalb so gut im Unteruntermenü versteckt - Verbindungsprobleme zum Server Der eine Stern dafür, dass man zumindest das Prospekt der folgenden Woche anschauen kann.",
+          "sentiment": "negative",
+          "specific_complaint": "App unübersichtlich, keine Kategoriesuche, Angebote nicht zur Einkaufsliste hinzufügbar, Serverprobleme.",
+          "feature_request": "Übersichtlichere Navigation, Kategoriesuche und Einkaufsliste aus dem Prospekt.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Trotz der vielen Beschwerden wurde die Suchfunktion für die digitalen Kassenbons nicht wieder zurück gebracht. Dafür dann auch von mir 1 Stern.",
+          "sentiment": "negative",
+          "specific_complaint": "Die Suchfunktion für digitale Kassenbons wurde entfernt und nicht zurückgebracht.",
+          "feature_request": "Suchfunktion für digitale Kassenbons wieder einführen.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 4,
+          "review": "Gute APP mit Platz nach oben. Bringt doch bitten den Pfad QR Scanner ganz nach oben auf die Startseite. Ein kleiner Button würde schon reichen. Sonst fehlt der APP nichts. Das Design ist etwas angestaubt, aber noch funktional.👍 Und wenn ich mir noch was wünschen könnte, dann wäre das ein Kassenbon per E-Mail (zusätzlich zu dem in der APP). 🤠",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": "QR-Scanner-Button prominent auf der Startseite platzieren und Kassenbon zusätzlich per E-Mail versenden.",
+          "severity": "low"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 2,
+          "review": "Neulich wollte ich mein Auto laden, was diese App voraussetzt. Die Funktion habe ich nicht gefunden und bin weiter gefahren - zu Aldi. Das funktioniert das AdHoc! Die SB-Kassen rufen wirklich JEDES Mal jemanden vom Personal. Das dauert einfach für alle länger. Ich nutze sie nicht mehr. Lidl hat da ein komisches digitales Konzept, das für mich überhaupt nicht anwenderfreundlich ist. Der Mensch ist ein Gewohnheitstier, und wenn ständig die Benutzerführung verfummelt wird, nervt das.",
+          "sentiment": "negative",
+          "specific_complaint": "E-Mobilitäts-/Ladefunktion ist schwer auffindbar und Ladevorgang ließ sich nicht starten.",
+          "feature_request": "E-Mobilitätsfunktion leichter zugänglich und AdHoc-Laden ermöglichen.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 3,
+          "review": "Suchfunktion ausser Kontrolle. Wenn ich in die Suchleiste Lachs eingebe, dann gibt die App als Ergebnis Gartenmöbel. Das selbe passiert,wenn ich Weichspüler suche und die App mir Pfannensets auswirft. Wer hat denn das programmiert?",
+          "sentiment": "negative",
+          "specific_complaint": "Suchfunktion liefert völlig unpassende Ergebnisse (z.B. Gartenmöbel bei Suche nach Lachs).",
+          "feature_request": "Suchalgorithmus reparieren, sodass relevante Produkte gefunden werden.",
+          "severity": "high"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Es gibt nur die Angebote aber nicht das gesamte Sortiment. Ausserdem gibt es keine Suchfunktion und somit muss man durch die ganzen Angebote scrollen. Und ist der Artikel nicht im Angebot kann man ihn nicht kaufen. z.b Butter, Brot etc.",
+          "sentiment": "negative",
+          "specific_complaint": "Keine Suchfunktion und nur Angebote statt gesamtes Sortiment verfügbar.",
+          "feature_request": "Suchfunktion und vollständiges Sortiment in der App anbieten.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Rezepte und Angebote sind ja ganz gut. Nur der Barcodescanner funktioniert leider nicht mehr, um genau zu sein hat er nur einmal funktioniert. Das war der Grund warum ich die App runter geladen habe. Jetzt schreibe ich die Einkaufsliste halt wieder auf Papier. Schade.",
+          "sentiment": "negative",
+          "specific_complaint": "Barcodescanner funktioniert nicht mehr, nur einmal funktionierte er.",
+          "feature_request": "Zuverlässig funktionierender Barcodescanner.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "Also die App erfüllt alle wichtigen Grundfunktionen. Ich wünsche mir jedoch die Möglichkeit bereits an der Einkaufsliste zu sehen, was mich an der Kasse erwartet (Gutscheine ausgenommen ).",
+          "sentiment": "neutral",
+          "specific_complaint": null,
+          "feature_request": "Anzeige der voraussichtlichen Gesamtsumme der Einkaufsliste vor dem Kassengang.",
+          "severity": "low"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "blöd ich wollte Sachen ein scannen für die Einkaufsliste und jedes Mal kamm Artikel unbekannt ich habe es oft probiert immer das selbe finde ich sehr schade",
+          "sentiment": "negative",
+          "specific_complaint": "Scannen von Artikeln für Einkaufsliste liefert immer 'Artikel unbekannt'.",
+          "feature_request": "Artikel-Datenbank für Barcode-Scanner verbessern.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Ich finde diese app nicht so gut weil ich nicht suchen kann was ich haben will und wie viel es kostet!!!!!!!!!!!!!!!",
+          "sentiment": "negative",
+          "specific_complaint": "Produktsuche mit Preisanzeige fehlt.",
+          "feature_request": "Suchfunktion mit Preisanzeige hinzufügen.",
+          "severity": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Shopping list features",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "rewe",
+    "stats": {
+      "lidl-plus": {
+        "count": 4,
+        "avg_rating": 3.25,
+        "severity_pct": {
+          "high": 25.0,
+          "medium": 50.0,
+          "low": 25.0
+        }
+      },
+      "rewe": {
+        "count": 15,
+        "avg_rating": 2.93,
+        "severity_pct": {
+          "high": 20.0,
+          "medium": 40.0,
+          "low": 40.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 1,
+          "review": "Kann keine Einkaufsliste erstellen.",
+          "sentiment": "negative",
+          "specific_complaint": "Erstellen einer Einkaufsliste in der App funktioniert nicht.",
+          "feature_request": "Funktion zum Erstellen einer Einkaufsliste bereitstellen bzw. reparieren.",
+          "severity": "high"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 3,
+          "review": "Verbesserungsvorschlag: eine Einkaufsliste, die mit den hinterlegten Prospekten gekoppelt ist. Sprich, man kann in den Prospekten auf einzelne Artikel klicken und diese somit einer Einkaufsliste hinzufügen. Das würde das ganze Erlebnis in der App sehr verbessern und man würde sie öfter verwenden und nicht nur an der Kasse abscannen (wenn man das denn nicht auch vergisst)",
+          "sentiment": "neutral",
+          "specific_complaint": "Prospekte und Einkaufsliste sind nicht miteinander verknüpft.",
+          "feature_request": "Artikel aus Prospekten direkt zur Einkaufsliste hinzufügen können.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 5,
+          "review": "Wow, die beste App! Bevor man einkaufen geht, kann man eine Liste der Dinge erstellen, die man kaufen möchte, und es gibt auch eine Funktion, um Artikel zur Liste hinzuzufügen, falls man Angst hat, etwas zu vergessen.",
+          "sentiment": "positive",
+          "specific_complaint": null,
+          "feature_request": null,
+          "severity": "low"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 4,
+          "review": "Was die vollen 5 Sterne verhindert ist die Tatsache, dass es keinen integrierten Einkaufszettel gibt, in den ich ALLES was ich kaufen möchte, legen kann. (Selbstverständlich auch mit einem Fingertipp die Plus-Angebote) Izwischen zwei Sterne mehr, denn bei Scan&Go muss man jetzt nicht mehr zwischen Einkaufszettel und Scannen wechseln. die App stürzt aber seitdem oft ab.👍👍 Es wäre auch richtig toll, wenn man die Einkaufsliste sortieren könnte. 🙂 Ansonsten mehreren Handys nutzbar. 👍",
+          "sentiment": "neutral",
+          "specific_complaint": "App stürzt seit Scan&Go-Integration häufig ab; Einkaufsliste lässt sich nicht sortieren.",
+          "feature_request": "Integrierten Einkaufszettel mit Sortierfunktion und Plus-Angeboten per Fingertipp anbieten.",
+          "severity": "medium"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Welchen Sinn hat ein Update, wenn damit wesentliche Funktionen der App entfallen? Die Einkaufsliste war bisher das herausragende Merkmal wegen der Spracheingabe und der Scanmöglichkeit. Wo ist die Spracheingabe? Weg.... Die Scanmöglichkeit? Entfallen....  Damit hat sich die App selber erledigt und kann getrost deinstalliert werden.",
+          "sentiment": "negative",
+          "specific_complaint": "Spracheingabe und Scanfunktion der Einkaufsliste sind nach dem Update entfallen.",
+          "feature_request": "Spracheingabe und Barcode-Scanner wieder einführen.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Wozu dann überhaupt eine Rewe-App, wenn es schon Google Keep und einfache Zettel gibt??",
+          "sentiment": "negative",
+          "specific_complaint": "App bietet keinen Mehrwert gegenüber Google Keep oder Zetteln.",
+          "feature_request": null,
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "Währe schön wenn einem der Gesamtwert im Warenkorb angezeigt wuerde. Deswegen nur 3 Sterne...",
+          "sentiment": "neutral",
+          "specific_complaint": "Gesamtwert des Warenkorbs wird nicht angezeigt.",
+          "feature_request": "Gesamtsumme im Warenkorb anzeigen.",
+          "severity": "low"
+        },
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Ich kann die Einkaufsliste, die ich am PC erstellt habe, nicht auf dem Smartphone öffnen. Das war die einzige Funktion mit echtem Mehrwert.  Wenn die Funktion kommt gebt mir Bescheid, dann überarbeite ich die Bewertung gern.",
+          "sentiment": "negative",
+          "specific_complaint": "Am PC erstellte Einkaufsliste lässt sich nicht auf dem Smartphone öffnen.",
+          "feature_request": "Synchronisation der Einkaufsliste zwischen PC und Smartphone.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 2,
+          "review": "Einkaufsliste, Märkte - alles weg. Kein Scanner mehr, nur noch ein Markt auswählbar",
+          "sentiment": "negative",
+          "specific_complaint": "Einkaufsliste, Scanner und Mehrfach-Marktauswahl sind nach dem Update verschwunden.",
+          "feature_request": "Scanner und mehrere Märkte wieder ermöglichen.",
+          "severity": "high"
+        }
+      ]
+    }
+  },
+  {
+    "theme": "Store finder & maps",
+    "comparative_signal": "asymmetric",
+    "dominant_app": "rewe",
+    "stats": {
+      "lidl-plus": {
+        "count": 2,
+        "avg_rating": 4.0,
+        "severity_pct": {
+          "high": 0.0,
+          "medium": 50.0,
+          "low": 50.0
+        }
+      },
+      "rewe": {
+        "count": 11,
+        "avg_rating": 2.18,
+        "severity_pct": {
+          "high": 27.3,
+          "medium": 72.7,
+          "low": 0.0
+        }
+      }
+    },
+    "representative_reviews": {
+      "lidl-plus": [
+        {
+          "app": "lidl-plus",
+          "rating": 3,
+          "review": "Warum soll man nur in einer Niederlassung einkaufen? Ungeeignet für Leute die viel unterwegs sind da man dann andauernd die NL wechseln muss. Und wofür gibt es den Button Papierbon sparen? Wenn dann doch ein Bon ausgedruckt wird um den Kassenbereich verlassen zu können. Sorry da stimmt einiges noch nicht.",
+          "sentiment": "negative",
+          "specific_complaint": "Festlegung auf eine Niederlassung unpraktisch; Papierbon-sparen-Funktion druckt trotzdem Bon.",
+          "feature_request": "Nutzung in mehreren Filialen ohne Wechsel ermöglichen und Papierbon zuverlässig unterdrücken.",
+          "severity": "medium"
+        },
+        {
+          "app": "lidl-plus",
+          "rating": 5,
+          "review": "Ich liebe Lidl und die Produkte die er anbietet und verkauft leider gibt es direkt in Himberg noch keinen Lidl was ich sehr schade finde",
+          "sentiment": "neutral",
+          "specific_complaint": "In Himberg gibt es keine Lidl-Filiale.",
+          "feature_request": "Neue Filiale in Himberg eröffnen.",
+          "severity": "low"
+        }
+      ],
+      "rewe": [
+        {
+          "app": "rewe",
+          "rating": 1,
+          "review": "Nächster Markt angeblich 75 km entfernt (richtig: 10 km). Keine Online Bestellung. Sinnlose App.",
+          "sentiment": "negative",
+          "specific_complaint": "Falsche Entfernungsangabe zum nächsten Markt und keine Online-Bestellung möglich.",
+          "feature_request": "Online-Bestellfunktion in der App ergänzen.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 2,
+          "review": "Die alte Marktsuche war sehr praktisch. Man konnte sehen, wo exakt im Umkreis sich der nächste Markt befindet. Jetzt ist nur ein einzelner Markt zu sehen und in der Liste nur Adressen, was in einer fremden Stadt nicht wirklich hilfreich ist. Das war der einzigste Grund zur Installation...",
+          "sentiment": "negative",
+          "specific_complaint": "Neue Marktsuche zeigt nur einen Markt statt Umkreisübersicht mit Karte.",
+          "feature_request": "Frühere Kartenansicht mit allen Märkten im Umkreis wiederherstellen.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 2,
+          "review": "Obwohl ich meinen Standort eingegeben habe,  wurden mir Angebote angezeigt,  die für meinen Markt keine Gültigkeit hatten.  Laut Rücksprache mit meinem Markt in Wuppertal ist das Problem bei rewe bekannt.  Dann macht die app für mich keinen Sinn. Schade eigentlich",
+          "sentiment": "negative",
+          "specific_complaint": "Trotz Standortangabe werden Angebote anderer Märkte angezeigt.",
+          "feature_request": "Angebote korrekt am ausgewählten Markt ausrichten.",
+          "severity": "high"
+        },
+        {
+          "app": "rewe",
+          "rating": 3,
+          "review": "Leider sehe ich nicht mehr alle Märkte auf  der Karte nach dem Update mehr. Nur einen denn  ich auswähle. Sinnlos in Orten wo ich keine Straße kenne. Vorher konnte ich anhand meines Standort auswählen welcher Markt  für mich am besten zu erreichen ist. Bitte wieder alle Märkte anzeigen sowie den eigenen Aktuellen Standort. Daher derzeit nur noch 1 Stern,  ändert sich aber wieder wenn die Funktion wieder geht.                                                                    ------------------------------------------------------------------------------------------------------------------------------Vielen dank für die schnelle Antwort. Die Funktion \"alle Märkte auf der Karte\" war einfach super. Jetzt muß man sich im Zielgebiet auskennen da nicht jeder die Örtlichkeiten, Sprich die Strassen kennt. Wäre schön wenn es wieder Aktiviert wird",
+          "sentiment": "negative",
+          "specific_complaint": "Nach Update werden nicht mehr alle Märkte auf der Karte angezeigt.",
+          "feature_request": "Alle Märkte und eigenen Standort wieder auf der Karte anzeigen.",
+          "severity": "medium"
+        },
+        {
+          "app": "rewe",
+          "rating": 2,
+          "review": "Vermisse leider die alte Marktsuche. Nur deshalb hab ich mir eigentlich die App installiert. Da wir mehrere Märkte in der Umgebung haben, mit unterschiedlichen angeboten. Sehr schade. Muß jetzt jedes mal den Markt wechseln. War vorher einfacher.",
+          "sentiment": "negative",
+          "specific_complaint": "Alte Marktsuche fehlt, Marktwechsel ist jetzt umständlicher.",
+          "feature_request": "Alte Marktsuche mit einfachem Wechsel zwischen Märkten wiederherstellen.",
+          "severity": "medium"
+        }
+      ]
+    }
+  }
+]

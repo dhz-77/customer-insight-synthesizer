@@ -1,0 +1,119 @@
+[
+  {
+    "theme": "Authentication & login",
+    "theme_description": "Users are blocked from logging in due to broken SMS verification, browser-dependent auth flows, and frequent session expirations that lock them out at checkout.",
+    "lidl_summary": "Lidl Plus login is severely broken: SMS codes never arrive, the auth callback fails unless Chrome is the default browser, and users are repeatedly logged out — often discovering this at the till when discounts no longer apply.",
+    "rewe_summary": "A single REWE user reports being unable to find a login path or sync their online shopping list, but volume is too low to draw conclusions.",
+    "pm_action": "fix-stability-bug",
+    "ab_test_idea": "Test whether replacing the external-browser OAuth handoff with an in-app webview plus email-based code fallback reduces login-failure support tickets by 50% within four weeks.",
+    "strategic_note": "Login is a critical competitive vulnerability for Lidl Plus — 36 high-severity complaints versus 1 at REWE means churn at the moment of purchase, directly undermining the loyalty program's value."
+  },
+  {
+    "theme": "Coupons & discounts",
+    "theme_description": "Users struggle with coupon activation, redemption reliability, and freshness of promotional offers shown in the app.",
+    "lidl_summary": "Lidl Plus users complain that manually activated coupons frequently fail to apply at checkout and that the per-item activation flow itself is tedious and unrewarding.",
+    "rewe_summary": "REWE users overwhelmingly complain that the weekly offers shown in-app are stale, out of sync with actual store stock, and lack a scan-at-checkout coupon mechanism.",
+    "pm_action": "redesign-flow",
+    "ab_test_idea": "Test whether auto-activating all eligible coupons by default (vs. opt-in tap) increases coupon redemption rate per active user by 30% over a two-week pilot.",
+    "strategic_note": "Both apps are weak here but in different ways — REWE has a content-freshness/backend sync problem while Lidl has a UX-friction and reliability problem; whoever fixes their side first gains a clear loyalty edge."
+  },
+  {
+    "theme": "In-store experience",
+    "theme_description": "This theme covers how the app supports the physical shopping journey: digital receipts, in-store connectivity, and scanner usability.",
+    "lidl_summary": "Lidl Plus users report that digital receipts are frequently unavailable when needed and that excessive gamification distracts from core in-store functions like pfand, coupons, and payment.",
+    "rewe_summary": "A single REWE user notes that poor in-store mobile coverage makes the scanner and offer features unusable until they reach the exit.",
+    "pm_action": "fix-stability-bug",
+    "ab_test_idea": "Test whether caching the last 90 days of receipts locally on-device reduces 'receipt unavailable' complaints by 70% over six weeks.",
+    "strategic_note": "Lidl's heavier in-store app reliance (scan-to-save, digital receipts) creates more surface area for failure than REWE's lighter footprint — a reliability win here protects Lidl's differentiator."
+  },
+  {
+    "theme": "Loyalty program mechanics",
+    "theme_description": "This covers how points, rabattsammler thresholds, pfandbons, and reward redemption work within the loyalty program.",
+    "lidl_summary": "Lidl Plus users report QR codes failing to display, large purchases not credited to the Rabattsammler, and the new points system perceived as stingy enough to drive defection to Aldi.",
+    "rewe_summary": "The two REWE comments are wishlist items — a staff-card section and clearer Payback integration — rather than complaints about broken mechanics.",
+    "pm_action": "research-deeper",
+    "ab_test_idea": "Test whether lowering the Rabattsammler reward threshold by 25% and surfacing progress on the home screen increases weekly active loyalty-program users by 15%.",
+    "strategic_note": "Lidl risks eroding the perceived value of its loyalty proposition just as REWE users are merely asking for nice-to-haves — a stingy reward economy is a self-inflicted competitive wound."
+  },
+  {
+    "theme": "Onboarding & registration",
+    "theme_description": "Users are blocked from creating accounts due to failing SMS/email verification, capacity errors, and browser incompatibilities.",
+    "lidl_summary": "Lidl Plus registration is broken at scale — users face missing SMS codes, 'capacity exceeded' errors, Firefox incompatibility, and dozens of failed activation attempts.",
+    "rewe_summary": "Only a single REWE review touches onboarding, expressing fear of accidental purchases rather than registration friction.",
+    "pm_action": "fix-stability-bug",
+    "ab_test_idea": "Test whether replacing the SMS verification with an email-based magic link reduces registration drop-off by 30%.",
+    "strategic_note": "Lidl Plus has a critical onboarding funnel failure that REWE avoids simply because it requires no account — a competitive liability blocking Lidl's entire personalisation strategy."
+  },
+  {
+    "theme": "Online shop & ordering integration",
+    "theme_description": "Users expect to browse the full assortment, order, and arrange delivery or pickup directly from the app.",
+    "lidl_summary": "A single Lidl Plus complaint notes missing accessory products, suggesting only marginal assortment gaps.",
+    "rewe_summary": "REWE users are frustrated that the app shows only weekly offers with no ordering, delivery, or account management — they expected a full e-commerce experience.",
+    "pm_action": "build-new-feature",
+    "ab_test_idea": "Test whether adding an in-app 'order for pickup/delivery' entry point from the shopping list increases weekly active users by 20% among urban users.",
+    "strategic_note": "REWE's app is perceived as a brochure while a delivery service already exists separately — closing this integration gap is a major retention opportunity Lidl has not yet contested."
+  },
+  {
+    "theme": "Other app features (themes, accessibility, customization)",
+    "theme_description": "Users want customization options like dark mode, landscape orientation, and decoupled language/region settings.",
+    "lidl_summary": "Lidl Plus users repeatedly demand dark mode, independent language-from-country settings, meaningful changelogs, and German-language support.",
+    "rewe_summary": "REWE users specifically want tablet landscape support and PDF offer downloads, with some praising recent visual improvements.",
+    "pm_action": "build-new-feature",
+    "ab_test_idea": "Test whether shipping dark mode in Lidl Plus and landscape/tablet layout in REWE increases 30-day retention by 5% among power users.",
+    "strategic_note": "Both apps have distinct customization debt — Lidl's gap is cross-border travelers, REWE's gap is tablet users — neither competitor has solved both, leaving open differentiation."
+  },
+  {
+    "theme": "Payment & checkout",
+    "theme_description": "Users cannot reliably complete payment or checkout flows, blocking transactions and Lidl Pay usage.",
+    "lidl_summary": "Lidl Plus suffers concrete checkout bugs — broken invoice payment, mismatched billing/shipping addresses with no warnings, and Lidl Pay incompatible with Android 17.",
+    "rewe_summary": "REWE users complain that no payment or checkout exists at all, with ordering loops failing and the app perceived as functionally empty.",
+    "pm_action": "fix-stability-bug",
+    "ab_test_idea": "Test whether fixing Lidl Pay on Android 17 and adding an address-mismatch warning at checkout reduces payment-step abandonment by 25%.",
+    "strategic_note": null
+  },
+  {
+    "theme": "Performance & stability",
+    "theme_description": "Users on both apps face crashes, broken post-update functionality, device compatibility issues, and connectivity errors that block core usage.",
+    "lidl_summary": "Lidl Plus users report widespread post-update breakages (Profile screen blank, partner benefits failing, prospect view crashes) and dropped support for older/beta Android devices, driving switches to competitors.",
+    "rewe_summary": "REWE users hit false 'no internet' errors despite working connectivity, stale offer data after reinstall, slow load times on the offers list, and missing support for older Samsung devices.",
+    "pm_action": "fix-stability-bug",
+    "ab_test_idea": "Test whether a hotfix release targeting the post-update Profile/partner-benefits regression reduces crash-free-session complaints in 1-star reviews by 40% within 4 weeks.",
+    "strategic_note": null
+  },
+  {
+    "theme": "Privacy & data concerns",
+    "theme_description": "Users distrust the data collection practices of both apps, citing excessive registration requirements and unexplained permission requests.",
+    "lidl_summary": "Lidl Plus users refuse to register because phone number, birthday and address are mandatory, and some attribute unsolicited spam calls directly to Lidl sharing their data.",
+    "rewe_summary": "REWE users question why the app requests camera, microphone and photo permissions, viewing this as inconsistent with REWE's privacy-conscious brand image.",
+    "pm_action": "clarify-comms",
+    "ab_test_idea": "Test whether adding just-in-time permission rationale dialogs and a 'minimal data' registration option increases registration completion rate by 15% versus the current mandatory-fields flow.",
+    "strategic_note": null
+  },
+  {
+    "theme": "Search & navigation",
+    "theme_description": "Users on both apps struggle to find products, categories and core features due to broken search, missing scanners, and buried navigation.",
+    "lidl_summary": "Lidl Plus search returns wildly irrelevant results (Lachs → Gartenmöbel), the receipt search was removed, and key functions like EV charging and QR scanning are hidden in submenus.",
+    "rewe_summary": "REWE users complain there is no general product search or full assortment (only offers), the barcode scanner frequently returns 'unknown article', and basic price lookup is impossible.",
+    "pm_action": "redesign-flow",
+    "ab_test_idea": "Test whether replacing the current search with a unified product+receipt+category search bar pinned to the home screen increases search-to-result-click rate by 25% and reduces 'cannot find' complaints.",
+    "strategic_note": null
+  },
+  {
+    "theme": "Shopping list features",
+    "theme_description": "Users want a robust shopping list with barcode scanning, voice input, cross-device sync, and integration with weekly offers.",
+    "lidl_summary": "Lidl Plus has only a rudimentary list with no prospect-to-list integration, no sorting, and occasional crashes after Scan&Go integration — users explicitly request what REWE used to offer.",
+    "rewe_summary": "REWE users are furious that a recent update stripped previously beloved list features (voice input, barcode scanner, multi-market, PC-mobile sync), turning a differentiator into a regression.",
+    "pm_action": "build-new-feature",
+    "ab_test_idea": "Test whether restoring REWE's voice input and barcode scanner, plus shipping a prospect-to-list 'add with one tap' feature in Lidl Plus, increases weekly active list users by 30% versus control.",
+    "strategic_note": "REWE's shopping list was a genuine competitive moat over Lidl Plus; by removing voice and scanner features they have voluntarily surrendered that advantage just as Lidl users are explicitly asking for the same capability — a rare window for whichever team ships first to own the category."
+  },
+  {
+    "theme": "Store finder & maps",
+    "theme_description": "Covers how users locate nearby stores, switch between them, and see store-specific offers on a map.",
+    "lidl_summary": "Lidl Plus users complain that the app locks them to a single Filiale, making it impractical for shoppers who move between stores.",
+    "rewe_summary": "REWE users are frustrated that a recent update removed the multi-store map view, showing only a single selected market and surfacing offers tied to the wrong store.",
+    "pm_action": "redesign-flow",
+    "ab_test_idea": "Test whether restoring a multi-store map view with one-tap store switching increases weekly active sessions by 15% among users who open the store finder.",
+    "strategic_note": "REWE shipped a regression that degraded a previously loved feature, while Lidl never built robust multi-store support at all — fixing this is a quick competitive win for whichever app moves first."
+  }
+]

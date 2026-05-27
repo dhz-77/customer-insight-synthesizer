@@ -1,0 +1,7 @@
+venv/
+.env
+SETUP.md
+__pycache__/
+data/reviews_raw.csv
+.DS_Store
+.claude/
